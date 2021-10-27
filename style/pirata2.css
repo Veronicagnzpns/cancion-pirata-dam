@@ -1,0 +1,28 @@
+/********* estilo de pirata con imagen grande de fondo  ********/
+
+@font-face {
+    font-family: pirata;/* el nombre que yo quiera */
+    src: url("../fonts/Vennesia.ttf"); /* donde está el archivo */
+}
+
+body {background-color:  #fbd996c7;
+  }
+
+#container {background-image: url("../images/fondo.jpg");/* la imagen está en el container */
+            background-size: cover;/** COVER STIRA O ENCOGE LA IMAGEN PARA QUE ENCAGE PERFECTAMENTE UNA SOLA VEZ*/
+            background-position: 66%;/*decido donde está el centro de interes de mi imagen de fondo, y ahi fijo el punto para posteriores reortes por defecto,es left, pero yo he puerto en el 2º tercio(66%)*/
+            width:80%;
+            height: 100vh;/*PUEDE PROVOCAR QUE EL TEXTO SE SALGA DEL CONTAINER*/
+            margin:auto;
+            font-family: pirata;
+           font-size: 1em;
+        box-shadow: 40px 40px 40px  #724c23,
+                    -40px 40px 40px  #724c23,
+                    40px -40px 40px  #724c23,
+                    -40px -40px 40px  #724c23;}
+#poema{
+    background-color: #fbd996c7;
+    width: 300px;/*en estecaso muy particular me conviene fijar el ancho en pixeles porque el ancho de líneas del poema y no rompe los versos.además 300px cabe en el ancho de cualquier movil*/
+    text-align: center;
+    margin: 20px;
+    padding: 20px;}            

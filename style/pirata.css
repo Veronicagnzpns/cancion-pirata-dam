@@ -1,0 +1,19 @@
+/******HOJA DE ESTILO DE LA WEB PIRATA******/
+
+@font-face {
+    font-family: pirata;
+    src: url("../fonts/Vennesia.ttf");
+}
+body{background-image:url("../images/42280261-mano-pirata-dibujado-de-fondo-sin-fisuras-vector-patrón-.jpg");
+    background-size: 600px;
+padding: 0;
+margin: 0;
+}
+
+#container {background-color: #f7efd3cb;
+width: 50%;
+margin: auto;
+padding: 10px;
+font-family: pirata;
+font-size: 2em;
+text-align: center;}
